@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <img src="https://res.cloudinary.com/dsqml46mn/image/upload/v1733035015/logo_gqhhme.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products" class="product-catalog">
+            <h1>Our Products</h1>
+            <div class="product-grid" id="product-grid"></div>
+        </section>
+    </main>
+
+    <div id="popup" class="popup">
+        <span>Võimalik maksta sulas. Tagastused 7 päeva jooksul tasuta, peale 7 päeva 98% raha tagasi.</span>
+        <button id="close-popup">Close</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
