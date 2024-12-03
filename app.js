@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = [
-        { id: 1, name: 'Product 1', image: 'https://via.placeholder.com/200', price: '€20', inStock: true },
-        { id: 2, name: 'Product 2', image: 'https://via.placeholder.com/200', price: '€30', inStock: false },
-        { id: 3, name: 'Product 3', image: 'https://via.placeholder.com/200', price: '€40', inStock: true }
+    { "id": 1, "name": "Product 1", "image": "https://via.placeholder.com/200", "price": "9€" },
+    { "id": 2, "name": "Product 2", "image": "https://via.placeholder.com/200", "price": "30" },
+    { "id": 3, "name": "Product 3", "image": "https://via.placeholder.com/200", "price": "11" },
+    { "id": 3, "name": "Product 4", "image": "https://via.placeholder.com/200", "price": "50€" },
+    { "id": 3, "name": "Product 5", "image": "https://via.placeholder.com/200", "price": "22€" },
     ];
 
     const productGrid = document.getElementById('product-grid');
