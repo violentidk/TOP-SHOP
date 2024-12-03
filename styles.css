@@ -85,3 +85,12 @@ body {
     cursor: pointer;
     border-radius: 3px;
 }
+
+.out-of-stock {
+    background-color: #FF0000;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
